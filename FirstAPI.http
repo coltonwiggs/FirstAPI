@@ -15,17 +15,16 @@ Accept: application/json
 POST {{rootURL}}/api/books
 Content-Type: application/json
 {
-  "id": 6,
   "title": "The Life of Snurgi",
   "author": "Colton Wiggs",
   "yearPublished": 2026
 }
 
 ###
-PUT {{rootURL}}/api/books/5
+PUT {{rootURL}}/api/books/6
 Content-Type: application/json
 {
-  "id": 5,
+  "id": 6,
   "title": "The Hobbit",
   "author": "Colton Wiggs",
   "yearPublished": 1851

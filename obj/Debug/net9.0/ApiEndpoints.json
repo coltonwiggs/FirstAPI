@@ -74,7 +74,7 @@
   {
     "ContainingType": "FirstAPI.Controllers.BooksController",
     "Method": "UpdateBook",
-    "RelativePath": "api/Books/i{id}",
+    "RelativePath": "api/Books/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -87,6 +87,22 @@
       {
         "Name": "updatedBook",
         "Type": "FirstAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstAPI.Controllers.BooksController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
